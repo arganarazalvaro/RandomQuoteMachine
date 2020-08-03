@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0ebdadc5e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Random Quote Machine</title>
+  </head>
+  <body>
+    <h1>Quote Machine</h1>
+    <div id="quote-box" class="container rounded p-4">
+      <div id="text">
+        <span>" </span
+        ><em
+          >Would you like to read a famous quote? Click on the new quote
+          button</em
+        ><span> "</span>
+      </div>
+      <div id="author"><span>- </span>Famous author</div>
+
+      <div class="buttons row justify-content-center p-2">
+        <button id="new-quote" type="button" class="btn btn-primary m-2">
+          New Quote
+        </button>
+        <button id="tweet-btn" type="button" class="btn btn-primary m-2">
+          <a
+            href="https://twitter.com/intent/tweet"
+            id="tweet-quote"
+            target="_blank"
+            title="Tweet this quote!"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </button>
+      </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
